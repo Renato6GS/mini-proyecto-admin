@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #1a5de0;
+  --light-primary-color: #f1ebff;
+  --secondary-color: #020202;
+  --white: #fff;
+  --gray: #525252;
+  --white-dark: #f4f9f2;
+  --blue-light: #d4dbff;
+  --blue-hover: #f1ebff;
+  --red: #e01a1a;
+  --red-dark: #ae4b4b;
+  --stroke-color: #d4dbff;
+  --blue-aside: #dee4ff;
+}
+
+/* Estilo de celda: */
+.rbc-calendar {
+  font-size: 1.1rem;
+  font-family: "GeneralSans-Bold", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.rbc-timeslot-group {
+  min-height: 60px !important;
+}
+
+/* Estilo de celdas con reunión: */
+.meeting {
+  background-color: var(--light-primary-color) !important;
+  color: var(--primary-color) !important;
+  height: auto !important;
+}
+
+.rbc-toolbar-label {
+  font-size: 1.5rem;
+  font-family: "GeneralSans-Bold", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.rbc-calendar::first-letter {
+  text-transform: uppercase;
+}
+
+/* calendario: */
+.react-calendar {
+  border: none !important;
+}
