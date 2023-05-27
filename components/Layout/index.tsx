@@ -20,8 +20,10 @@ export default function Layout({ children }: Props) {
           <Navbar.Section grow component={ScrollArea} mx="-xs" px="xs">
             <ul>
               {LINKS.map(({ name, href }) => (
-                <li key={name}>
-                  <Link href={href}>{name}</Link>{" "}
+                <li key={name} style={{ color: "#283d3e" }}>
+                  <Link href={href} style={{ color: "#283d3e" }}>
+                    {name}
+                  </Link>{" "}
                 </li>
               ))}
             </ul>
@@ -35,7 +37,7 @@ export default function Layout({ children }: Props) {
               <Burger opened={opened} onClick={() => setOpened((o) => !o)} size="sm" mr="xl" />
             </MediaQuery>
             {/* <ThemeButton /> */}
-            <h1 style={{ color: "#09f" }}>Sistema de citas</h1>
+            <h1 style={{ color: "#283d3e" }}>Sistema de Registro de Alumnos</h1>
           </div>
         </Header>
       }

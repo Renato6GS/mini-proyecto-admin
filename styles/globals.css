@@ -13,6 +13,10 @@
   --blue-aside: #dee4ff;
 }
 
+* {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
 /* Estilo de celda: */
 .rbc-calendar {
   font-size: 1.1rem;
@@ -44,4 +48,16 @@
 /* calendario: */
 .react-calendar {
   border: none !important;
+}
+
+.register__btn-add-course {
+  width: 50px;
+  height: 50px;
+  background-color: #1098ad;
+  color: white;
+  border: none;
+  border-radius: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+  cursor: pointer;
 }

@@ -102,3 +102,86 @@ export const CLINIC_INPUTS = [
     withAsterisk: true,
   },
 ];
+
+export const STUDENT_INPUTS = [
+  {
+    key: 1,
+    label: "CUI",
+    placeholder: "",
+    required: true,
+    name: "studentCui",
+    withAsterisk: true,
+  },
+  {
+    key: 2,
+    label: "Nombres",
+    placeholder: "",
+    required: true,
+    name: "studentName",
+    withAsterisk: true,
+  },
+  {
+    key: 3,
+    label: "Apellidos",
+    placeholder: "",
+    required: true,
+    name: "studentLastName",
+    withAsterisk: true,
+  },
+];
+
+export const GENDERS = [
+  { value: "Masculino", label: "Masculino" },
+  { value: "Femenino", label: "Femenino" },
+];
+
+export const COURSES = [
+  {
+    value: "1",
+    label: "Programación 1",
+  },
+  {
+    value: "2",
+    label: "Programación 2",
+  },
+  {
+    value: "3",
+    label: "Programación 3",
+  },
+  {
+    value: "4",
+    label: "Algoritmos",
+  },
+  {
+    value: "5",
+    label: "Base de datos 1",
+  },
+  {
+    value: "6",
+    label: "Base de datos 2",
+  },
+  {
+    value: "7",
+    label: "Redes 1",
+  },
+  {
+    value: "8",
+    label: "Redes 2",
+  },
+  {
+    value: "9",
+    label: "Sistemas operativos 1",
+  },
+  {
+    value: "10",
+    label: "Sistemas operativos 2",
+  },
+  {
+    value: "11",
+    label: "Ingeniería de software",
+  },
+  {
+    value: "12",
+    label: "Administración de teconologías de información",
+  },
+];
